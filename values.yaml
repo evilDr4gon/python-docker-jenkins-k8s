@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: d4rkghost47/python-app
   pullPolicy: IfNotPresent
-  tag: 86f84b63
+  tag: 1f9f8c65
 
 serviceAccount:
   create: true
