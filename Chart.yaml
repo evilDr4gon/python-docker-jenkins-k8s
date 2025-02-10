@@ -1,0 +1,26 @@
+apiVersion: v2
+name: python-app
+description: Helm Chart para una aplicación Flask en Kubernetes con GitOps
+type: application
+
+version: 0.1.0
+appVersion: "latest"  
+
+maintainers:
+  - name: Jose Reynoso
+    email: reynosojose2005@gmail.com
+    url: "https://www.linkedin.com/in/jose-reynoso-52b14a236/"
+    description: "Arquitecto de sistemas en la nube, especialista en Kubernetes"
+sources:
+  - https://github.com/d4rkghost47/python-app
+
+keywords:
+  - flask
+  - python
+  - jenkins
+  - gitops
+
+annotations:
+  "helm.sh/display-name": "Python App GitOps"
+  "helm.sh/category": "Microservices"
+
